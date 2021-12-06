@@ -1,0 +1,74 @@
+
+#header h1, h2 {
+    margin: 0px;
+}
+
+h1{
+    background-color: rgb(179, 209, 179);
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+   
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+}
+#header > nav > ul{
+    padding: 0px;
+    margin: 10px 0 0 0;
+    list-style: none;
+    text-align: center;
+}
+#header > nav > ul > li {
+    display: inline-block;
+}
+
+#header > nav > ul > li > a{
+    padding: 10px;
+    display: block;
+}
+
+a:hover{
+    color: plum;
+
+}
+
+
+#content {
+    min-height: 500px;
+}
+#content img{
+    width: 100%
+}
+
+.ingredients ul li{
+    list-style: circle;
+}
+
+.ingredients ol li {
+    list-style: lower-roman;
+}
+
+#footer {
+    min-height: 50px;
+    text-align: center;
+    background-color:rgb(179, 209, 179);
+    color:cornflowerblue;
+}
+
+#footer > blockquote {
+    display: inline-block;
+    margin-right: 5px;
+    font-style: italic;
+    font-size: 20px;    
+}
+
+#footer > blockquote::before {
+    content: open-quote;
+}
+#footer > blockquote::after {
+    content: close-quote;
+}
